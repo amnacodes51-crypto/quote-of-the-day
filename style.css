@@ -1,0 +1,83 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7EFE5;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 380px;
+    text-align: center;
+}
+
+h1 {
+    color: #705447;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #A58C7D;
+    font-size: 12px;
+    margin-bottom: 18px;
+}
+
+.quote-card {
+    background-color: white;
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(112, 84, 71, 0.12);
+}
+
+.quote-card h2 {
+    color: #D9A6A0;
+    font-size: 30px;
+}
+
+.quote {
+    color: #705447;
+    font-size: 15px;
+    line-height: 1.5;
+    font-style: italic;
+    margin-bottom: 12px;
+}
+
+.quote-card h3 {
+    color: #A58C7D;
+    font-size: 12px;
+}
+
+footer {
+    color: #A58C7D;
+    font-size: 10px;
+    margin-top: 18px;
+}
+
+@media (max-width: 400px) {
+    .container {
+        width: 92%;
+    }
+
+    .quote-card {
+        padding: 15px;
+    }
+}
+.quote-card {
+    width: 85%;
+    max-width: 300px;
+    margin: auto;
+    background-color: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(112, 84, 71, 0.10);
+}
